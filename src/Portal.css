@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --blue: #4887ef;
+  --gray: #e6e6e6;
+  --gray-text: #4887ef;
+  --green: #69cb56;
+  --row-hover: #d8d8d8;
+  --row-selected: #ecf3fe;
+}
+
+.live-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  position: relative;
+}
+
+.pulsating-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #10a047; 
+  border-radius: 50%;
+  animation: pulsate 2s infinite;
+  bottom: 20px;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+.warden-header {
+  margin-left: 3%;
+  font-size: 1.6rem;
+  font-weight: 200;
+
+  position: relative;
+  text-align: center;
+  letter-spacing: .2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar .bot-title {
+  padding: 0 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 2px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+
+
+.search-bar .bot-title strong {
+  font-weight: 700;
+}
+
+.search-bar input {
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding: 18px 15px;
+  position: relative;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+}
+
+table.table {
+  font-family: 'Lato', sans-serif;
+}
+
+table.table tbody tr:hover {
+  background-color: var(--row-hover);
+  cursor: pointer;
+}
+
+table.table tbody tr.selected {
+  background-color: var(--row-selected);
+}
+
+table.table tbody tr td {
+  padding: 18px 0 15px 10px;
+  vertical-align: middle;
+}
+
+table.table tbody tr td .badge {
+  background-color: var(--green);
+}
+
+table.table tbody tr td:nth-child(1) {
+  width: 5%;
+}
+
+table.table tbody tr td:nth-child(2) {
+  width: 15%;
+}
+
+table.table tbody tr td:nth-child(3) {
+  width: 15%;
+  padding-right: 20px;
+}
+
+table.table tbody tr td:nth-child(4) {
+  width: 20%;
+}
+
+table.table tbody tr td:last-child {
+  font-weight: 700;
+}
+
+table.table tbody tr:first-of-type th {
+  border-top: 0;
+  padding-bottom: 15px;
+  color: var(--gray-text);
+  font-weight: 400;
+}
+
+table.table input[type=checkbox] {
+  -webkit-appearance: none;
+  background-color: #FFF;
+  border: 2px solid var(--gray-text);
+  padding: 7px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+table.table input[type=checkbox]:active,
+table.table input[type=checkbox]:checked:active {
+  box-shadow: none;
+}
+
+table.table input[type=checkbox]:checked {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+}
