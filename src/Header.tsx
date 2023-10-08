@@ -17,13 +17,15 @@ function Header() {
 };
 
     return (
+
+      
       <header className="header">
         <nav className="navbar">
          
         <div className="wallet-buttons">
           <img src="../public/WardenHeader.png" onClick={handleHome} className="logo" />
         
-          <button className="submit-button" onClick={handleReport}>Report Wallet</button>
+          <button className="report" onClick={handleReport}>REPORT</button>
 
           </div>
         </nav>

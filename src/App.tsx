@@ -19,6 +19,7 @@ import {
   WalletDisconnectButton,
   WalletMultiButton
 } from '@solana/wallet-adapter-react-ui';
+import { withRouter, RouteComponentProps } from 'react-router-dom';
 
 const network = WalletAdapterNetwork.Mainnet;
 
@@ -27,6 +28,8 @@ import { clusterApiUrl, Connection } from '@solana/web3.js';
 import './Header.css';
 
 import Submit from './Submit';
+const WalletDetailWithRouter = withRouter(WalletDetail);
+
 
 let rpcHost =
   "https://solana.coin.ledger.com/";
@@ -61,6 +64,36 @@ const SubmitPage = () => {
   );
 };
 
+const WalletDetailsPage = () => {
+  const endpoint = useMemo(() => clusterApiUrl(network), []);
+
+  const wallets = useMemo(
+    () => [
+      new PhantomWalletAdapter(),
+      new SolflareWalletAdapter(),
+      new TrustWalletAdapter(),
+    ],
+    [network]
+  );
+  return (
+  
+      <ConnectionProvider endpoint={endpoint}>
+        <WalletProvider wallets={wallets}>
+          <WalletModalProvider>
+
+            <div className="wallet-connect">
+            <WalletMultiButton className="wallet-adapter-button"/> 
+            </div>
+            <WalletDetailWithRouter />
+            
+           
+          </WalletModalProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+
+  );
+};
+
 const App = () => {
 
   
@@ -70,7 +103,7 @@ const App = () => {
     <div>
       {/* Define routes */}
       <Route path="/" exact component={Portal} />
-      <Route path="/wallet/:walletId" component={WalletDetail} />
+      <Route path="/wallet/:walletId" component={WalletDetailsPage} />
       <Route path="/report/" component={SubmitPage} />
     </div>
   </Router>

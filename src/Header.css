@@ -20,47 +20,34 @@
   align-items: center;
   justify-content: center;
   width: auto;
-  height: 10vh;
+  height:15vh;
 }
 
 .wallet-buttons {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  align-items: center;
+  justify-content: center;
   gap: 10px; 
   margin-right: 300px;
 }
 
-.wallet-connect {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-  margin-right: 300px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
-.submit-button {
-  background-color: #ff3e3e;
-  border: none;
-  color: #ffffff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  height: 40px;
-  line-height: 48px;
-  padding: 0 15px;
-  border-radius: 4px;
-}
-
-.submit-button:hover {
-  background-color: #a01e1e;
-}
+.report {
+    background-color: #bb2121;
+    color: #ffffff;
+   
+    border: none;
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .report:hover {
+    background-color: #ff3131;
+    transform: scale(1.05); 
+  }
 
 .wallet-adapter-button {
     background-color: transparent;
@@ -73,6 +60,7 @@
     font-size: 16px;
     font-weight: 600;
     height: 40px;
+    margin-bottom: 10px;
     line-height: 48px;
     padding: 0 15px;
     border-radius: 4px;
