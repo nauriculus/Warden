@@ -7,7 +7,7 @@ In the world of blockchain, there's a significant lack of efficient systems for 
 ## The Warden Solution
 Warden is here to change that. It's a game-changing platform that empowers users and disrupts the status quo. Here's what Warden offers:
 
-![Screenshot (2025)](https://github.com/nauriculus/Warden/assets/24634581/7a22152b-97a4-498f-8d30-41850f36beab)
+![Screenshot (2025)](https://github.com/nauriculus/Warden/assets/24634581/37b6af8c-4d33-433b-94db-dc9dcbf58987)
 
 - Effortless Reporting: Warden simplifies the process of reporting scams. Users can report suspicious wallets in seconds, without worrying about gas fees or complex procedures.
 
