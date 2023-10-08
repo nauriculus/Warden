@@ -5,6 +5,8 @@
   --gray: #e6e6e6;
   --gray-text: #4887ef;
   --green: #69cb56;
+  --yellow: #fde931;
+  --red: #e02721;
   --row-hover: #d8d8d8;
   --row-selected: #ecf3fe;
 }
@@ -41,7 +43,7 @@
 }
 
 .warden-header {
-  margin-left: 3%;
+  margin-right: 15%;
   font-size: 1.6rem;
   font-weight: 200;
 
@@ -95,8 +97,19 @@ table.table tbody tr td {
   vertical-align: middle;
 }
 
-table.table tbody tr td .badge {
+table.table tbody tr td .approved {
   background-color: var(--green);
+}
+
+table.table tbody tr td .pending {
+  background-color: var(--yellow);
+  width: 69px;
+  color: #000000;
+}
+
+table.table tbody tr td .declined {
+  background-color: var(--red);
+  color: #fff;
 }
 
 table.table tbody tr td:nth-child(1) {

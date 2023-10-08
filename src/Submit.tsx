@@ -5,6 +5,7 @@ import errorGif from '../public/error.gif';
 import Modal from 'react-modal';
 import { useWallet } from '@solana/wallet-adapter-react';
 import bs58 from 'bs58';
+import { PublicKey } from '@solana/web3.js';
 
 Modal.setAppElement('#root');
 
@@ -54,11 +55,6 @@ export const WalletDetail = () => {
 
 
 
-  function isValidSolanaWallet(address: string) {
-    const solanaWalletPattern = /^[1-9A-HJ-NP-Za-km-z]{44}$/;
-    return solanaWalletPattern.test(address);
-  }
-
   const [toastText, setToastText] = useState("Error"); 
   const [showToast, setShowToast] = useState(false); 
   const [submissionStatus, setSubmissionStatus] = useState(false);
@@ -85,7 +81,10 @@ export const WalletDetail = () => {
       return; 
     }
     
-    if (isValidSolanaWallet(formData.walletAddress.trim())) {
+    const pubKey = new PublicKey(formData.walletAddress.trim());
+     
+
+    if (PublicKey.isOnCurve(pubKey)) {
       
     
 

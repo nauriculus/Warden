@@ -15,9 +15,9 @@ interface MatchParams {
   @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
   </style>
   
-        {/* Display wallet details here */}
+   
         <h2>Wallet Details for {walletId}</h2>
-        {/* Display wallet-specific data */}
+       
       </div>
     );
   };
