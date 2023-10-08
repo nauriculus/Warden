@@ -29,6 +29,7 @@ Warden is here to change that. It's a game-changing platform that empowers users
 
 Trending Reported Wallets: https://binaramics.com:5173/trending 
 Wallet Details : https://binaramics.com:5173/getDetails?WALLET=SOLANA_WALLET
+
 ```[{"REPORT_ID":"ed03cd94-9e66-4861-85e3-16b7bf05c078","REPORTER":"nau56xrowdmHF7kvnJQBTm6co2BxXAjr6ESgSZbEutc","FLAGGED_WALLET":"EAUwikTgqeHKJMaqDj17Cwb6TH3XzcXbxHSN7etGzMFt","TYPE":"exploit","DESCRIPTION":"bypassed the verification process of the Wormhole bridge on Solana $320M stolen. ","TIMESTAMP":1696766386,"STATUS":0,"VOTES":3,"VISITS":43,"VOTE_WALLETS":"[\"nau56xrowdmHF7kvnJQBTm6co2BxXAjr6ESgSZbEutc\",\"E1rid3KRQbSJZPYgbU9DfTp87RPYDcuq8y8PszqtbnSC\"]"}]```
 
 # Contact
