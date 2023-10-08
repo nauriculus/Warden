@@ -1,4 +1,4 @@
-### Warden - Safeguarding Blockchain Integrity
+## Warden - Safeguarding Blockchain Integrity
 Warden is a dedicated platform designed to address the critical need for enhanced security and transparency in the blockchain space. It provides users with a straightforward and efficient way to report scams, fraudulent wallet activities, and other security concerns.
 
 # Problem Statement
