@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://binaramics.com/Logo.png" alt="Logo" width="240">
+  <img src="https://binaramics.com/WardenLogo.png" alt="Logo" width="240">
 
   <p align="center">
     <br>
