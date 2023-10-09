@@ -393,7 +393,7 @@ function handleDisconnect() {
           } else {
             const votes = 0;
   
-            let status; // Declare status using 'let' to allow reassignment
+            let status;
   
             if (type === "fraud" || type === "contract") {
               status = 1; // Instant Approve
