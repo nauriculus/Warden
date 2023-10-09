@@ -13,8 +13,8 @@
 </div>
 
 
+ <img src="[https://binaramics.com/WardenLogo.png](https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3)" alt="MainPage" width="240">
 
-![Screenshot (2027)](https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3)
 
 ## Problem Statement
 
