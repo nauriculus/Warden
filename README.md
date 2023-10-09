@@ -6,14 +6,16 @@
     Warden is a dedicated platform designed to address the critical need for enhanced security and transparency in the Solana ecosystem. It provides users with a straightforward and efficient way to report scams, fraudulent wallet activities, and other security concerns.
     <br />
     <br />
-    <a href="https://binaramics.com:1212">Go to Website</a>
+    <a href="https://binaramics.com:1212">Live Demo</a>
     ·
-    <a href="https://twitter.com/Binaramics">Follow on X</a>
+    <a href="https://twitter.com/Binaramics">Follow Us X</a>
+     ·
+    <a href="https://www.youtube.com/watch?v=9ckGCwmQBTw">Demo Video</a>
   </p>
 </div>
 
 
- <img src="[https://binaramics.com/WardenLogo.png](https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3)" alt="MainPage" width="240">
+ <img src="https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3" alt="MainPage" width="240">
 
 
 ## Problem Statement
