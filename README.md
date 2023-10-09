@@ -1,6 +1,6 @@
 # Warden - Safeguarding Blockchain Integrity
 
-Warden is a dedicated platform designed to address the critical need for enhanced security and transparency in the blockchain space. It provides users with a straightforward and efficient way to report scams, fraudulent wallet activities, and other security concerns.
+Warden is a dedicated platform designed to address the critical need for enhanced security and transparency in the Solana ecosystem. It provides users with a straightforward and efficient way to report scams, fraudulent wallet activities, and other security concerns.
 
 ![Screenshot (2027)](https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3)
 
