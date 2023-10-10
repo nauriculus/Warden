@@ -20,8 +20,6 @@ In the world of blockchain, there's a significant lack of efficient systems for 
 
 # The Warden Solution: A Quick Overview: 
 
-Warden is here to change that. It's a game-changing platform that empowers users and disrupts the status quo. 
-
 - **Effortless Scam Reporting**: Quickly integrate Warden to enable users to report scams and fraudulent activities without the hassle of complex procedures or gas fees.
 - **Timely Action**: Take immediate action against scams and phishing attacks, protecting your users from potential threats.
 - **Open Reporting Data**: Access reported wallet data via the API to enhance your platform's security measures and protect your users effectively.
