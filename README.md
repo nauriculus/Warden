@@ -27,7 +27,7 @@ Warden is here to change that. It's a game-changing platform that empowers users
 
 - **Effortless Reporting:** Warden simplifies the process of reporting scams. Users can report suspicious wallets in seconds, without worrying about gas fees or complex procedures.
 
-![Effortless Reporting](https://github.com/nauriculus/Warden/assets/24634581/fca3f81d-77eb-4cbf-834e-a720cccd5d83)
+ <img src="https://github.com/nauriculus/Warden/assets/24634581/fca3f81d-77eb-4cbf-834e-a720cccd5d83" alt="Effortless Reporting" width="800">
 
 - **Categorized Reports:** Warden categorizes reports into three distinct types, allowing users to specify the nature of their concerns.
 
