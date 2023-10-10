@@ -20,21 +20,14 @@ In the world of blockchain, there's a significant lack of efficient systems for 
 
 ## The Warden Solution
 
-
 Warden is here to change that. It's a game-changing platform that empowers users and disrupts the status quo. 
 
-Quick Overview: 
-Effortless Scam Reporting: Quickly integrate Warden's API to enable users to report scams and fraudulent activities within your platform without the hassle of complex procedures or gas fees.
+# Quick Benefits Overview: 
+- **Effortless Scam Reporting**: Quickly integrate Warden to enable users to report scams and fraudulent activities without the hassle of complex procedures or gas fees.
+- **Timely Action**: Take immediate action against scams and phishing attacks, protecting your users from potential threats.
+- **Open Reporting Data**: Access reported wallet data via the API to enhance your platform's security measures and protect your users effectively.
 
-Timely Action: Take immediate action against scams and phishing attacks, protecting your users from potential threats.
-
-User Empowerment: Empower your users to actively participate in maintaining security, enhancing trust within your Solana community.
-
-Cost-Efficient: Reduce user costs associated with reporting fraudulent activities, encouraging more users to report suspicious incidents.
-
-Deterrence: Deter scammers by leveraging Warden's effective scam identification and reporting capabilities.
-
-
+# Full Overview
 - **Effortless Reporting:** Warden simplifies the process of reporting scams. Users can report suspicious wallets in seconds, without worrying about gas fees or complex procedures.
 
  <img src="https://github.com/nauriculus/Warden/assets/24634581/bf5ba8bc-4563-48ff-b5f4-21a262e7e6d3" alt="MainPage" width="700">
