@@ -37,9 +37,9 @@ Warden is here to change that. It's a game-changing platform that empowers users
 
 - **Community Collaboration:** Warden is not just about reporting; it's a collaborative ecosystem. Users actively participate in the voting system.
 
-![Community Collaboration](https://github.com/nauriculus/Warden/assets/24634581/48b68b6d-8a24-405a-8178-9ce1f5271979)
-![Community Collaboration](https://github.com/nauriculus/Warden/assets/24634581/fefa2ef8-1b88-47e0-9a1e-ada07b64275c)
-![Community Collaboration](https://github.com/nauriculus/Warden/assets/24634581/5afb357c-5127-4607-93f4-f06dd27cbb5f)
+<img src="https://github.com/nauriculus/Warden/assets/24634581/48b68b6d-8a24-405a-8178-9ce1f5271979" alt="Reporting" width="600">
+<img src="https://github.com/nauriculus/Warden/assets/24634581/fefa2ef8-1b88-47e0-9a1e-ada07b64275c)" alt="Reporting2" width="600">
+<img src="https://github.com/nauriculus/Warden/assets/24634581/5afb357c-5127-4607-93f4-f06dd27cbb5f)" alt="Reporting3" width="600">
 
 - **User-friendly API:** Warden offers a user-friendly API, granting developers and other platforms seamless access to integrate and protect their users.
 
