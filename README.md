@@ -18,11 +18,10 @@
 
 In the world of blockchain, there's a significant lack of efficient systems for reporting scams and fraudulent activities. Existing blockchain explorers on Solana only display outdated data, allowing scammers to operate unchecked. This lack of security and transparency undermines trust within the Solana community.
 
-## The Warden Solution
+# The Warden Solution: A Quick Overview: 
 
 Warden is here to change that. It's a game-changing platform that empowers users and disrupts the status quo. 
 
-# The Warden Solution: A Quick Overview: 
 - **Effortless Scam Reporting**: Quickly integrate Warden to enable users to report scams and fraudulent activities without the hassle of complex procedures or gas fees.
 - **Timely Action**: Take immediate action against scams and phishing attacks, protecting your users from potential threats.
 - **Open Reporting Data**: Access reported wallet data via the API to enhance your platform's security measures and protect your users effectively.
